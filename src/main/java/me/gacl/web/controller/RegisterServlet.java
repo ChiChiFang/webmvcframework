@@ -57,6 +57,7 @@ public class RegisterServlet extends HttpServlet {
             request.getRequestDispatcher( "/message.jsp" ).forward(request,response);
         }
     }
+
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         doGet(request, response);

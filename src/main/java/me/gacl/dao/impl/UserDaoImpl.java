@@ -1,11 +1,13 @@
 package me.gacl.dao.impl;
 
 import java.text.SimpleDateFormat;
-import org.domj.Document;
-import org.domj.Element;
+
+import me.gacl.util.XmlUtils;
+import org.dom4j.Document;
+import org.dom4j.Element;
 import me.gacl.dao.IUserDao;
 import me.gacl.domain.User;
-import me.gacl.util.XmlUtils;
+
 /**
  * IUserDao接口的实现类
  * @author gacl

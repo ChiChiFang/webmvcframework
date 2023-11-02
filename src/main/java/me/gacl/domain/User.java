@@ -7,7 +7,6 @@ import java.util.Date;
  * 用户实体类
  */
 public class User implements Serializable {
-    private static final long serialVersionUID = -L;
     // 用户ID
     private String id;
     // 用户名
